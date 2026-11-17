@@ -1,0 +1,15 @@
+# Model weights and local caches
+*.gguf
+*.safetensors
+*.onnx
+*.bin
+.ollama/
+models/
+blobs/
+
+# Local environment, logs, and OS metadata
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

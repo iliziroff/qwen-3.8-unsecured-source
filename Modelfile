@@ -1,0 +1,8 @@
+# Use the same model weights as the original local setup.
+FROM orcarouter/Qwen3.8-27B-Uncensored:q3_k_m
+
+# Keep the context and sampling settings portable across machines.
+PARAMETER num_ctx 4096
+PARAMETER temperature 0.7
+PARAMETER top_k 20
+PARAMETER top_p 0.8
